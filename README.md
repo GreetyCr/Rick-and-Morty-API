@@ -94,8 +94,6 @@ Uploaded to Github and use Github Pages
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://greetycr.github.io/Rick-and-Morty-API/)
 
 ## 👥 Authors <a name="authors"></a>
