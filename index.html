@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a019e17187.js" crossorigin="anonymous"></script>
+ 
+  <title>Rick and Morty searcher</title>
+</head>
+<body>
+  <div id="app">
+    <div class="flex flex-col">
+      <div class="navbar flex flex-col">
+        <div class="flex content-wrapper justify-between aling-center" style="flex-direction: row; z-index: 1005;">
+          <div class="logo">
+            <img src="./assets/logo_imdb.png" alt="" class="logo">
+          </div>
+          <div class="links flex aling-center justify-between">
+            <a href="" class="btn-contact">About us</a>
+          </div>
+        </div>
+        <div class="content-wrapper flex-col aling-center" style="margin-top: 40px; align-items: center;">
+          <h1 class="navbar-title">Browse characters</h1>
+          <div class="input-wrap">
+            <input type="text" placeholder="Search by name" class="search-input">
+            <div class="search-wrapper flex justify-center aling-center">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+        <div class="overlay">
+        </div>
+      </div>
+
+      <div class="pagination">
+        <button class="pagination-button" onclick="handlePaginationClick('prev')">Previous</button>
+        <button class="pagination-button" onclick="handlePaginationClick('next')">Next</button>
+      </div>
+
+      <div class="container-wrapper">
+      </div>
+      
+
+    </div>
+  </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
