@@ -96,7 +96,7 @@ Uploaded to Github and use Github Pages
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://greetycr.github.io/Portfolio_Mobil_Firts/)
+- [Live Demo Link](https://greetycr.github.io/Rick-and-Morty-API/)
 
 ## 👥 Authors <a name="authors"></a>
 
